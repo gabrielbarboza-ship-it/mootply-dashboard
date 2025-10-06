@@ -1,3 +1,83 @@
+// Variável global para dados dos clientes
+let clientsData = [];
+
+// DOM References
+const fileUpload = document.getElementById('fileUpload');
+const uploadStatus = document.getElementById('uploadStatus');
+const searchInput = document.getElementById('searchInput');
+const clientsTableBody = document.querySelector('#clientsTable tbody');
+const currentDate = document.getElementById('current-date');
+
+// Atualiza a data no header
+function updateDate() {
+  const now = new Date();
+  currentDate.textContent = now.toLocaleDateString('pt-BR', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+// Renderiza tabelas com filtro opcional
+function renderTable(filter = '') {
+  clientsTableBody.innerHTML = '';
+  const filteredData = clientsData.filter(client =>
+    client.CLIENTE.toLowerCase().includes(filter.toLowerCase())
+  );
+  if(filteredData.length === 0){
+    clientsTableBody.innerHTML = '<tr><td colspan="5" style="text-align:center;">Nenhum cliente encontrado</td></tr>';
+    return;
+  }
+  filteredData.forEach(client => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${client.CLIENTE}</td>
+      <td>${client.OBJETIVO_PRINCIPAL}</td>
+      <td>${client.PLATAFORMA}</td>
+      <td>${client.VERBA_LIQUIDA}</td>
+      <td>${client.ANALISTA_RESPONSAVEL}</td>
+    `;
+    clientsTableBody.appendChild(tr);
+  });
+}
+
+// Lê arquivo Excel e carrega dados
+function handleFileUpload(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = evt => {
+    const data = evt.target.result;
+    const workbook = XLSX.read(data, { type: 'binary' });
+    const worksheet = workbook.Sheets['Página1'];
+    if (!worksheet) {
+      uploadStatus.textContent = "Erro: Aba 'Página1' não encontrada na planilha.";
+      return;
+    }
+    const jsonData = XLSX.utils.sheet_to_json(worksheet, { defval: '' });
+
+    // Mapeia para formato esperado (normalização)
+    clientsData = jsonData.map(row => ({
+      CLIENTE: row['CLIENTE'] || row['0 CLIENTE'] || '',
+      OBJETIVO_PRINCIPAL: row['OBJETIVO PRINCIPAL'] || '',
+      PLATAFORMA: row['PLATAFORMA'] || '',
+      VERBA_LIQUIDA: row['VERBA - LÍQUIDA'] || '',
+      ANALISTA_RESPONSAVEL: row['ANALISTA RESPONSÁVEL'] || ''
+    }));
+
+    uploadStatus.textContent = `Planilha '${file.name}' carregada com sucesso! ${clientsData.length} registros encontrados.`;
+    renderTable(searchInput.value);
+  };
+  reader.readAsBinaryString(file);
+}
+
+// Eventos
+fileUpload.addEventListener('change', handleFileUpload);
+
+searchInput.addEventListener('input', e => {
+  renderTable(e.target.value);
+});
+
+// Inicializa a data e renderiza tabela vazia
+updateDate();
+renderTable();
 // Client data with detailed information
 const clientsData = [
   {
