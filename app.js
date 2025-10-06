@@ -1,13 +1,3 @@
-// Variável global para dados dos clientes
-let clientsData = [];
-
-// DOM References
-const fileUpload = document.getElementById('fileUpload');
-const uploadStatus = document.getElementById('uploadStatus');
-const searchInput = document.getElementById('searchInput');
-const clientsTableBody = document.querySelector('#clientsTable tbody');
-const currentDate = document.getElementById('current-date');
-
 // Atualiza a data no header
 function updateDate() {
   const now = new Date();
