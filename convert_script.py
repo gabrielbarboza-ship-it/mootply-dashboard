@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 # Ler planilha Excel
-df = pd.read_excel('Mootply-Distribuicao-de-clientes-1.xlsx')
+df = pd.read_excel('mootply-distribuicao-clientes.xlsx')
 
 # Ajustar nomes de colunas se necessário
 df.rename(columns={'0 CLIENTE': 'CLIENTE'}, inplace=True)
