@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Mootply - ClienteView Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="dashboard-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-text">
+                    <h1 class="header-title">Dashboard Mootply</h1>
+                    <p class="header-subtitle" id="current-date"></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="tabs-nav">
+        <div class="container">
+            <div class="tabs-container">
+                <button class="tab-button active" data-tab="overview">Visão Geral</button>
+                <button class="tab-button" data-tab="analysis">Análises</button>
+                <button class="tab-button" data-tab="clients">Clientes</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="dashboard-main">
+        <div class="container">
+            <!-- TAB 1: VISÃO GERAL -->
+            <div id="overview-tab" class="tab-content active">
+                <!-- Metrics Cards -->
+                <section class="metrics-section">
+                    <div class="metrics-grid">
+                        <div class="metric-card metric-card--clients">
+                            <div class="metric-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value" id="total-clients">22</div>
+                                <div class="metric-label">Total de Clientes</div>
+                            </div>
+                        </div>
+
+                        <div class="metric-card metric-card--revenue">
+                            <div class="metric-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="12" y1="1" x2="12" y2="23"/>
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                                </svg>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value" id="total-revenue">R$ 49.335,00</div>
+                                <div class="metric-label">Verba Total</div>
+                            </div>
+                        </div>
+
+                        <div class="metric-card metric-card--ticket">
+                            <div class="metric-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                                </svg>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value" id="average-ticket">R$ 2.242,50</div>
+                                <div class="metric-label">Ticket Médio</div>
+                            </div>
+                        </div>
+
+                        <div class="metric-card metric-card--active">
+                            <div class="metric-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="3"/>
+                                    <path d="M12 1v6m0 6v6"/>
+                                    <path d="M21 12h-6m-6 0H3"/>
+                                </svg>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value" id="active-campaigns">47</div>
+                                <div class="metric-label">Campanhas Ativas</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Quick Filters -->
+                <section class="quick-filters-section">
+                    <h3>Filtros Rápidos</h3>
+                    <div class="quick-filters">
+                        <button class="filter-btn active" data-filter="all">Todos</button>
+                        <button class="filter-btn" data-filter="Social">Social</button>
+                        <button class="filter-btn" data-filter="Leads">Leads</button>
+                        <button class="filter-btn" data-filter="E-commerce">E-commerce</button>
+                    </div>
+                </section>
+
+                <!-- Charts -->
+                <section class="charts-section">
+                    <div class="charts-grid">
+                        <div class="chart-container" style="position: relative; height: 400px;">
+                            <h3>Distribuição por Objetivo</h3>
+                            <canvas id="objectiveChart"></canvas>
+                        </div>
+                        <div class="chart-container" style="position: relative; height: 400px;">
+                            <h3>Verba por Plataforma</h3>
+                            <canvas id="platformChart"></canvas>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- TAB 2: ANÁLISES -->
+            <div id="analysis-tab" class="tab-content">
+                <section class="analysis-section">
+                    <div class="analysis-grid">
+                        <div class="chart-container" style="position: relative; height: 350px;">
+                            <h3>Top 10 Clientes por Verba</h3>
+                            <canvas id="topClientsChart"></canvas>
+                        </div>
+                        <div class="chart-container" style="position: relative; height: 350px;">
+                            <h3>Campanhas Ativas por Plataforma</h3>
+                            <canvas id="activeCampaignsChart"></canvas>
+                        </div>
+                        <div class="chart-container" style="position: relative; height: 350px;">
+                            <h3>Verba Diária Média</h3>
+                            <canvas id="dailyBudgetChart"></canvas>
+                        </div>
+                        <div class="chart-container" style="position: relative; height: 350px;">
+                            <h3>Performance por Analista</h3>
+                            <canvas id="analystChart"></canvas>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- TAB 3: CLIENTES -->
+            <div id="clients-tab" class="tab-content">
+                <!-- Search and Filters -->
+                <section class="client-filters-section">
+                    <div class="client-filters-container">
+                        <div class="search-container">
+                            <input 
+                                type="text" 
+                                id="client-search" 
+                                class="form-control search-input" 
+                                placeholder="Buscar cliente por nome ou informações..."
+                            >
+                        </div>
+                        
+                        <div class="filter-group">
+                            <select id="client-objective-filter" class="form-control">
+                                <option value="">Todos os Objetivos</option>
+                                <option value="Social">Social</option>
+                                <option value="Leads">Leads</option>
+                                <option value="E-commerce">E-commerce</option>
+                                <option value="Leads | E-commerce">Leads | E-commerce</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <select id="client-platform-filter" class="form-control">
+                                <option value="">Todas as Plataformas</option>
+                                <option value="Meta">Meta</option>
+                                <option value="Google">Google</option>
+                                <option value="TikTok">TikTok</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label class="checkbox-container">
+                                <input type="checkbox" id="details-filter">
+                                <span class="checkmark"></span>
+                                Com Detalhes Extras
+                            </label>
+                        </div>
+
+                        <button id="clear-client-filters" class="btn btn--secondary">Limpar</button>
+                    </div>
+                    
+                    <div class="results-counter">
+                        <span id="results-count">Mostrando 22 de 22 clientes</span>
+                    </div>
+                </section>
+
+                <!-- Clients Grid -->
+                <section class="clients-grid-section">
+                    <div class="clients-grid" id="clients-grid">
+                        <!-- Client cards will be populated by JavaScript -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Client Details Modal -->
+    <div id="client-details-modal" class="modal hidden">
+        <div class="modal-content modal-content--large">
+            <div class="modal-header">
+                <h2 id="modal-client-title">Detalhes do Cliente</h2>
+                <button id="close-client-modal" class="modal-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="client-details-container">
+                    <!-- Basic Info -->
+                    <div class="detail-section">
+                        <h3>Informações Básicas</h3>
+                        <div class="detail-grid">
+                            <div class="detail-item">
+                                <span class="detail-label">Cliente:</span>
+                                <span class="detail-value" id="detail-cliente"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Objetivo:</span>
+                                <span class="detail-value" id="detail-objetivo"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Plataforma:</span>
+                                <span class="detail-value" id="detail-plataforma"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Analista:</span>
+                                <span class="detail-value" id="detail-analista"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Financial Info -->
+                    <div class="detail-section">
+                        <h3>Informações Financeiras</h3>
+                        <div class="detail-grid">
+                            <div class="detail-item">
+                                <span class="detail-label">Verba Líquida:</span>
+                                <span class="detail-value" id="detail-verba"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">BV Mootply:</span>
+                                <span class="detail-value" id="detail-bv"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Platform Investment -->
+                    <div class="detail-section">
+                        <h3>Investimento por Plataforma</h3>
+                        <div class="detail-grid">
+                            <div class="detail-item">
+                                <span class="detail-label">Google Ads:</span>
+                                <span class="detail-value" id="detail-google"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Meta Ads:</span>
+                                <span class="detail-value" id="detail-meta"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">TikTok Ads:</span>
+                                <span class="detail-value" id="detail-tiktok"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Daily Budget -->
+                    <div class="detail-section">
+                        <h3>Verba Diária</h3>
+                        <div class="detail-grid">
+                            <div class="detail-item">
+                                <span class="detail-label">Meta (Diária):</span>
+                                <span class="detail-value" id="detail-meta-dia"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Google (Diária):</span>
+                                <span class="detail-value" id="detail-google-dia"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Extra Details (for special clients like Edubolsas) -->
+                    <div id="extra-details-section" class="detail-section extra-details hidden">
+                        <h3>Informações Detalhadas</h3>
+                        
+                        <div class="extra-detail-category">
+                            <h4>Descrição do Negócio</h4>
+                            <p id="detail-descricao-negocio"></p>
+                        </div>
+
+                        <div class="extra-detail-category">
+                            <h4>Estratégia</h4>
+                            <p id="detail-estrategia"></p>
+                        </div>
+
+                        <div class="extra-detail-category">
+                            <h4>Modelo de Negócio</h4>
+                            <p id="detail-modelo-negocio"></p>
+                        </div>
+
+                        <div class="extra-detail-category">
+                            <h4>Atendimento</h4>
+                            <p id="detail-atendimento"></p>
+                        </div>
+
+                        <div class="extra-detail-category">
+                            <h4>Restrições Geográficas</h4>
+                            <p id="detail-restricoes"></p>
+                        </div>
+
+                        <div class="extra-detail-category">
+                            <h4>Posicionamento</h4>
+                            <p id="detail-posicionamento"></p>
+                        </div>
+
+                        <div class="extra-detail-category">
+                            <h4>Observações</h4>
+                            <p id="detail-observacoes"></p>
+                        </div>
+
+                        <div class="extra-detail-category">
+                            <h4>Contato Principal</h4>
+                            <p id="detail-contato"></p>
+                        </div>
+
+                        <div class="extra-detail-category">
+                            <h4>Recursos Externos</h4>
+                            <ul id="detail-recursos"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-overlay"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
