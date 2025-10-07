@@ -1,0 +1,370 @@
+{
+  "total_clientes": 22,
+  "clientes_com_verba": 21,
+  "total_verba": 49335.0,
+  "media_verba": 2349.285714285714,
+  "objetivos": {
+    "Social": 11,
+    "Leads": 9,
+    "E-commerce": 1,
+    "Leads | E-commerce": 1
+  },
+  "plataformas": {
+    "Meta": 13,
+    "Meta, Google": 6,
+    "Meta, Tik Tok": 2,
+    "Google, Meta": 1
+  },
+  "top_clientes": [
+    {
+      "cliente": "Muffato Malls",
+      "verba": 10000.0
+    },
+    {
+      "cliente": "Fert Embryo",
+      "verba": 5785.0
+    },
+    {
+      "cliente": "Askov",
+      "verba": 5000.0
+    },
+    {
+      "cliente": "Unimed",
+      "verba": 5000.0
+    },
+    {
+      "cliente": "Catuaí",
+      "verba": 4500.0
+    },
+    {
+      "cliente": "Vedere",
+      "verba": 2600.0
+    },
+    {
+      "cliente": "SR Óticas ",
+      "verba": 2000.0
+    },
+    {
+      "cliente": "Taquito",
+      "verba": 2000.0
+    },
+    {
+      "cliente": "Lider Alimentos",
+      "verba": 1600.0
+    },
+    {
+      "cliente": "Shopping Total",
+      "verba": 1500.0
+    }
+  ],
+  "todos_clientes": [
+    {
+      "0 CLIENTE": "Askov",
+      "OBJETIVO PRINCIPAL": "Social",
+      "PLATAFORMA": "Meta, Tik Tok",
+      "VERBA - LÍQUIDA": 5000,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "Não",
+      "Meta Ads": "R$3.000,00",
+      "Tiktok Ads": "R$2.000,00",
+      "META DIA/VERBA": 100.0,
+      "GOOGLE DIA/VERBA": 66,
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 5000.0
+    },
+    {
+      "0 CLIENTE": "Campos Nutrition",
+      "OBJETIVO PRINCIPAL": "E-commerce",
+      "PLATAFORMA": "Meta, Google",
+      "VERBA - LÍQUIDA": "-",
+      "BV - MOOTPLY": NaN,
+      "Google Ads": NaN,
+      "Meta Ads": NaN,
+      "Tiktok Ads": NaN,
+      "META DIA/VERBA": NaN,
+      "GOOGLE DIA/VERBA": NaN,
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": NaN
+    },
+    {
+      "0 CLIENTE": "Catuaí",
+      "OBJETIVO PRINCIPAL": "Leads",
+      "PLATAFORMA": "Meta, Google",
+      "VERBA - LÍQUIDA": 4500,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "R$1000,00",
+      "Meta Ads": "R$3,500,00",
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 116.0,
+      "GOOGLE DIA/VERBA": 33,
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 4500.0
+    },
+    {
+      "0 CLIENTE": "Dr. Gabriel Carapeba",
+      "OBJETIVO PRINCIPAL": "Social",
+      "PLATAFORMA": "Meta",
+      "VERBA - LÍQUIDA": 1200,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "Não",
+      "Meta Ads": "R$1.200,00",
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 40.0,
+      "GOOGLE DIA/VERBA": "Não",
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 1200.0
+    },
+    {
+      "0 CLIENTE": "Dr. Mateus Louzada",
+      "OBJETIVO PRINCIPAL": "Leads",
+      "PLATAFORMA": "Meta",
+      "VERBA - LÍQUIDA": 850,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "Não",
+      "Meta Ads": "R$850,00",
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 28.0,
+      "GOOGLE DIA/VERBA": "Não",
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 850.0
+    },
+    {
+      "0 CLIENTE": "Edubolsas",
+      "OBJETIVO PRINCIPAL": "Leads",
+      "PLATAFORMA": "Meta",
+      "VERBA - LÍQUIDA": 800,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "Não",
+      "Meta Ads": 800,
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 26.0,
+      "GOOGLE DIA/VERBA": "Não",
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 800.0
+    },
+    {
+      "0 CLIENTE": "Edubolsas Loja",
+      "OBJETIVO PRINCIPAL": "Leads | E-commerce",
+      "PLATAFORMA": "Meta",
+      "VERBA - LÍQUIDA": 800,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "Não",
+      "Meta Ads": "R$800,00",
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 26.0,
+      "GOOGLE DIA/VERBA": "Não",
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 800.0
+    },
+    {
+      "0 CLIENTE": "Fert Embryo",
+      "OBJETIVO PRINCIPAL": "Leads",
+      "PLATAFORMA": "Google, Meta",
+      "VERBA - LÍQUIDA": 5785,
+      "BV - MOOTPLY": 0.15,
+      "Google Ads": "R$1.785,00",
+      "Meta Ads": NaN,
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 126.0,
+      "GOOGLE DIA/VERBA": 96,
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 5785.0
+    },
+    {
+      "0 CLIENTE": "Gold ",
+      "OBJETIVO PRINCIPAL": "Social",
+      "PLATAFORMA": "Meta",
+      "VERBA - LÍQUIDA": 1000,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "Não",
+      "Meta Ads": 1000,
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 33.0,
+      "GOOGLE DIA/VERBA": "Não",
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 1000.0
+    },
+    {
+      "0 CLIENTE": "Hinomoto ",
+      "OBJETIVO PRINCIPAL": "Social",
+      "PLATAFORMA": "Meta",
+      "VERBA - LÍQUIDA": 700,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "Não",
+      "Meta Ads": 700,
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 23.0,
+      "GOOGLE DIA/VERBA": "Não",
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 700.0
+    },
+    {
+      "0 CLIENTE": "Jardim Suinga",
+      "OBJETIVO PRINCIPAL": "Social",
+      "PLATAFORMA": "Meta",
+      "VERBA - LÍQUIDA": 400,
+      "BV - MOOTPLY": 0.2,
+      "Google Ads": "Não",
+      "Meta Ads": 400,
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 13.0,
+      "GOOGLE DIA/VERBA": "Não",
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 400.0
+    },
+    {
+      "0 CLIENTE": "Lider Alimentos",
+      "OBJETIVO PRINCIPAL": "Social",
+      "PLATAFORMA": "Meta, Tik Tok",
+      "VERBA - LÍQUIDA": 1600,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "Não",
+      "Meta Ads": 1000,
+      "Tiktok Ads": "R$600,00",
+      "META DIA/VERBA": 13.0,
+      "GOOGLE DIA/VERBA": 20,
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 1600.0
+    },
+    {
+      "0 CLIENTE": "Mabraco",
+      "OBJETIVO PRINCIPAL": "Social",
+      "PLATAFORMA": "Meta",
+      "VERBA - LÍQUIDA": 600,
+      "BV - MOOTPLY": 0.2,
+      "Google Ads": "Não",
+      "Meta Ads": 600,
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 20.0,
+      "GOOGLE DIA/VERBA": "Não",
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 600.0
+    },
+    {
+      "0 CLIENTE": "Muffato Malls",
+      "OBJETIVO PRINCIPAL": "Leads",
+      "PLATAFORMA": "Meta, Google",
+      "VERBA - LÍQUIDA": 10000,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "R$4.000,00",
+      "Meta Ads": NaN,
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 200.0,
+      "GOOGLE DIA/VERBA": 133,
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 10000.0
+    },
+    {
+      "0 CLIENTE": "Regina Celia ",
+      "OBJETIVO PRINCIPAL": "Leads",
+      "PLATAFORMA": "Meta",
+      "VERBA - LÍQUIDA": 1000,
+      "BV - MOOTPLY": 0.2,
+      "Google Ads": "Não",
+      "Meta Ads": 1000,
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 33.0,
+      "GOOGLE DIA/VERBA": "Não",
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 1000.0
+    },
+    {
+      "0 CLIENTE": "Shefa",
+      "OBJETIVO PRINCIPAL": "Social",
+      "PLATAFORMA": "Meta",
+      "VERBA - LÍQUIDA": 1000,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "Não",
+      "Meta Ads": 1000,
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 33.0,
+      "GOOGLE DIA/VERBA": "Não",
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 1000.0
+    },
+    {
+      "0 CLIENTE": "Shopping Total",
+      "OBJETIVO PRINCIPAL": "Social",
+      "PLATAFORMA": "Meta",
+      "VERBA - LÍQUIDA": 1500,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "Não",
+      "Meta Ads": 1500,
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 50.0,
+      "GOOGLE DIA/VERBA": "Não",
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 1500.0
+    },
+    {
+      "0 CLIENTE": "SR Óticas ",
+      "OBJETIVO PRINCIPAL": "Leads",
+      "PLATAFORMA": "Meta, Google",
+      "VERBA - LÍQUIDA": 2000,
+      "BV - MOOTPLY": 0.2,
+      "Google Ads": "R$1.000,00",
+      "Meta Ads": NaN,
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 33.0,
+      "GOOGLE DIA/VERBA": 33,
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 2000.0
+    },
+    {
+      "0 CLIENTE": "Tânia",
+      "OBJETIVO PRINCIPAL": "Social",
+      "PLATAFORMA": "Meta",
+      "VERBA - LÍQUIDA": 1000,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "Não",
+      "Meta Ads": 1000,
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 33.0,
+      "GOOGLE DIA/VERBA": "Não",
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 1000.0
+    },
+    {
+      "0 CLIENTE": "Taquito",
+      "OBJETIVO PRINCIPAL": "Social",
+      "PLATAFORMA": "Meta",
+      "VERBA - LÍQUIDA": 2000,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "Não",
+      "Meta Ads": "R$1500,00",
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 66.0,
+      "GOOGLE DIA/VERBA": "Não",
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 2000.0
+    },
+    {
+      "0 CLIENTE": "Unimed",
+      "OBJETIVO PRINCIPAL": "Leads",
+      "PLATAFORMA": "Meta, Google",
+      "VERBA - LÍQUIDA": 5000,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": 2500,
+      "Meta Ads": "R$2.500,00",
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 83.0,
+      "GOOGLE DIA/VERBA": 83,
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 5000.0
+    },
+    {
+      "0 CLIENTE": "Vedere",
+      "OBJETIVO PRINCIPAL": "Leads",
+      "PLATAFORMA": "Meta, Google",
+      "VERBA - LÍQUIDA": 2600,
+      "BV - MOOTPLY": "NÃO",
+      "Google Ads": "R$1.000,00",
+      "Meta Ads": "R$1.600,00",
+      "Tiktok Ads": "Não",
+      "META DIA/VERBA": 53.0,
+      "GOOGLE DIA/VERBA": 33,
+      "ANALISTA RESPONSÁVEL": "André/Rafa",
+      "VERBA_LIMPA": 2600.0
+    }
+  ]
+}
