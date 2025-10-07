@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import * as XLSX from 'xlsx';
 
-const EXCEL_URL = "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/BRANCH/mootply-distribuicao-clientes.xlsx";
+const EXCEL_URL = "https://github.com/gabrielbarboza-ship-it/mootply-dashboard/blob/main/mootply-distribuicao-clientes.xlsx";
 
 function App() {
   const [data, setData] = useState([]);
