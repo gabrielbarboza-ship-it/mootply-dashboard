@@ -1,4 +1,4 @@
-// Real data from the spreadsheet
+// Real data from Mootply spreadsheet - EXACT DATA AS PROVIDED
 const dashboardData = {
     total_clientes: 22,
     clientes_com_verba: 21,
@@ -23,39 +23,39 @@ const dashboardData = {
         {"cliente": "Unimed", "verba": 5000.0},
         {"cliente": "Catuaí", "verba": 4500.0},
         {"cliente": "Vedere", "verba": 2600.0},
-        {"cliente": "SR Óticas ", "verba": 2000.0},
+        {"cliente": "SR Óticas", "verba": 2000.0},
         {"cliente": "Taquito", "verba": 2000.0},
         {"cliente": "Lider Alimentos", "verba": 1600.0},
         {"cliente": "Shopping Total", "verba": 1500.0}
     ],
     todos_clientes: [
-        {"0 CLIENTE": "Askov", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta, Tik Tok", "VERBA - LÍQUIDA": 5000, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "R$3.000,00", "Tiktok Ads": "R$2.000,00", "META DIA/VERBA": 100.0, "GOOGLE DIA/VERBA": 66, "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Askov", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta, Tik Tok", "VERBA - LÍQUIDA": 5000.0, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "R$3.000,00", "Tiktok Ads": "R$2.000,00", "META DIA/VERBA": 100.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
         {"0 CLIENTE": "Campos Nutrition", "OBJETIVO PRINCIPAL": "E-commerce", "PLATAFORMA": "Meta, Google", "VERBA - LÍQUIDA": null, "BV - MOOTPLY": null, "Google Ads": null, "Meta Ads": null, "Tiktok Ads": null, "META DIA/VERBA": null, "GOOGLE DIA/VERBA": null, "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Catuaí", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Meta, Google", "VERBA - LÍQUIDA": 4500, "BV - MOOTPLY": "NÃO", "Google Ads": "R$1000,00", "Meta Ads": "R$3,500,00", "Tiktok Ads": "Não", "META DIA/VERBA": 116.0, "GOOGLE DIA/VERBA": 33, "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Dr. Gabriel Carapeba", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 1200, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "R$1.200,00", "Tiktok Ads": "Não", "META DIA/VERBA": 40.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Dr. Mateus Louzada", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 850, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "R$850,00", "Tiktok Ads": "Não", "META DIA/VERBA": 28.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Edubolsas", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 800, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "800", "Tiktok Ads": "Não", "META DIA/VERBA": 26.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Edubolsas Loja", "OBJETIVO PRINCIPAL": "Leads | E-commerce", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 800, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "R$800,00", "Tiktok Ads": "Não", "META DIA/VERBA": 26.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Fert Embryo", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Google, Meta", "VERBA - LÍQUIDA": 5785, "BV - MOOTPLY": "0,15", "Google Ads": "R$1.785,00", "Meta Ads": "", "Tiktok Ads": "Não", "META DIA/VERBA": 126.0, "GOOGLE DIA/VERBA": 96, "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Gold ", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 1000, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "1000", "Tiktok Ads": "Não", "META DIA/VERBA": 33.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Hinomoto ", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 700, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "700", "Tiktok Ads": "Não", "META DIA/VERBA": 23.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Jardim Suinga", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 400, "BV - MOOTPLY": "0,2", "Google Ads": "Não", "Meta Ads": "400", "Tiktok Ads": "Não", "META DIA/VERBA": 13.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Lider Alimentos", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta, Tik Tok", "VERBA - LÍQUIDA": 1600, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "1000", "Tiktok Ads": "R$600,00", "META DIA/VERBA": 13.0, "GOOGLE DIA/VERBA": 20, "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Mabraco", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 600, "BV - MOOTPLY": "0,2", "Google Ads": "Não", "Meta Ads": "600", "Tiktok Ads": "Não", "META DIA/VERBA": 20.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Muffato Malls", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta, Google", "VERBA - LÍQUIDA": 10000, "BV - MOOTPLY": "0,15", "Google Ads": "R$5.000,00", "Meta Ads": "R$5.000,00", "Tiktok Ads": "Não", "META DIA/VERBA": 166.0, "GOOGLE DIA/VERBA": 166, "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Ottos", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 1000, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "1000", "Tiktok Ads": "Não", "META DIA/VERBA": 33.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Portal dos Condomínios", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Google, Meta", "VERBA - LÍQUIDA": 2400, "BV - MOOTPLY": "0,15", "Google Ads": "R$1.000,00", "Meta Ads": "R$1.400,00", "Tiktok Ads": "Não", "META DIA/VERBA": 46.0, "GOOGLE DIA/VERBA": 53, "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Prime Veículos", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Google, Meta", "VERBA - LÍQUIDA": 4000, "BV - MOOTPLY": "0,15", "Google Ads": "R$2.000,00", "Meta Ads": "R$2.000,00", "Tiktok Ads": "Não", "META DIA/VERBA": 66.0, "GOOGLE DIA/VERBA": 66, "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Shopping Total", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 1500, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "1500", "Tiktok Ads": "Não", "META DIA/VERBA": 50.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "SR Óticas ", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Meta, Google", "VERBA - LÍQUIDA": 2000, "BV - MOOTPLY": "0,15", "Google Ads": "R$1.000,00", "Meta Ads": "R$1.000,00", "Tiktok Ads": "Não", "META DIA/VERBA": 33.0, "GOOGLE DIA/VERBA": 33, "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Taquito", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 2000, "BV - MOOTPLY": "0,15", "Google Ads": "Não", "Meta Ads": "R$2.000,00", "Tiktok Ads": "Não", "META DIA/VERBA": 66.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Unimed", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Meta, Google", "VERBA - LÍQUIDA": 5000, "BV - MOOTPLY": "0,15", "Google Ads": "R$2.500,00", "Meta Ads": "R$2.500,00", "Tiktok Ads": "Não", "META DIA/VERBA": 83.0, "GOOGLE DIA/VERBA": 83, "ANALISTA RESPONSÁVEL": "André/Rafa"},
-        {"0 CLIENTE": "Vedere", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 2600, "BV - MOOTPLY": "0,15", "Google Ads": "Não", "Meta Ads": "R$2.600,00", "Tiktok Ads": "Não", "META DIA/VERBA": 86.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"}
+        {"0 CLIENTE": "Catuaí", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Meta, Google", "VERBA - LÍQUIDA": 4500.0, "BV - MOOTPLY": "NÃO", "Google Ads": "R$1000,00", "Meta Ads": "R$3,500,00", "Tiktok Ads": "Não", "META DIA/VERBA": 116.0, "GOOGLE DIA/VERBA": "33", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Dr. Gabriel Carapeba", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 1200.0, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "R$1.200,00", "Tiktok Ads": "Não", "META DIA/VERBA": 40.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Dr. Mateus Louzada", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 850.0, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "R$850,00", "Tiktok Ads": "Não", "META DIA/VERBA": 28.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Edubolsas", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 800.0, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "800", "Tiktok Ads": "Não", "META DIA/VERBA": 26.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Edubolsas Loja", "OBJETIVO PRINCIPAL": "Leads | E-commerce", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 800.0, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "R$800,00", "Tiktok Ads": "Não", "META DIA/VERBA": 26.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Fert Embryo", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Google, Meta", "VERBA - LÍQUIDA": 5785.0, "BV - MOOTPLY": "0,15", "Google Ads": "R$1.785,00", "Meta Ads": "", "Tiktok Ads": "Não", "META DIA/VERBA": 126.0, "GOOGLE DIA/VERBA": "96", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Gold", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 1000.0, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "1000", "Tiktok Ads": "Não", "META DIA/VERBA": 33.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Hinomoto", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 700.0, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "700", "Tiktok Ads": "Não", "META DIA/VERBA": 23.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Jardim Suinga", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 400.0, "BV - MOOTPLY": "0,2", "Google Ads": "Não", "Meta Ads": "400", "Tiktok Ads": "Não", "META DIA/VERBA": 13.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Lider Alimentos", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta, Tik Tok", "VERBA - LÍQUIDA": 1600.0, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "1000", "Tiktok Ads": "R$600,00", "META DIA/VERBA": 13.0, "GOOGLE DIA/VERBA": "20", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Mabraco", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 600.0, "BV - MOOTPLY": "0,2", "Google Ads": "Não", "Meta Ads": "600", "Tiktok Ads": "Não", "META DIA/VERBA": 20.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Muffato Malls", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Meta, Google", "VERBA - LÍQUIDA": 10000.0, "BV - MOOTPLY": "0,15", "Google Ads": "R$5.000,00", "Meta Ads": "R$5.000,00", "Tiktok Ads": "Não", "META DIA/VERBA": 166.0, "GOOGLE DIA/VERBA": "166", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Regina Celia", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 1000.0, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "1000", "Tiktok Ads": "Não", "META DIA/VERBA": 33.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Shefa", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 1000.0, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "1000", "Tiktok Ads": "Não", "META DIA/VERBA": 33.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Shopping Total", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 1500.0, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "1500", "Tiktok Ads": "Não", "META DIA/VERBA": 50.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "SR Óticas", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Meta, Google", "VERBA - LÍQUIDA": 2000.0, "BV - MOOTPLY": "0,15", "Google Ads": "R$1.000,00", "Meta Ads": "R$1.000,00", "Tiktok Ads": "Não", "META DIA/VERBA": 33.0, "GOOGLE DIA/VERBA": "33", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Tânia", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 1000.0, "BV - MOOTPLY": "NÃO", "Google Ads": "Não", "Meta Ads": "1000", "Tiktok Ads": "Não", "META DIA/VERBA": 33.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Taquito", "OBJETIVO PRINCIPAL": "Social", "PLATAFORMA": "Meta", "VERBA - LÍQUIDA": 2000.0, "BV - MOOTPLY": "0,15", "Google Ads": "Não", "Meta Ads": "R$2.000,00", "Tiktok Ads": "Não", "META DIA/VERBA": 66.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Unimed", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Meta, Google", "VERBA - LÍQUIDA": 5000.0, "BV - MOOTPLY": "0,15", "Google Ads": "R$2.500,00", "Meta Ads": "R$2.500,00", "Tiktok Ads": "Não", "META DIA/VERBA": 83.0, "GOOGLE DIA/VERBA": "83", "ANALISTA RESPONSÁVEL": "André/Rafa"},
+        {"0 CLIENTE": "Vedere", "OBJETIVO PRINCIPAL": "Leads", "PLATAFORMA": "Meta, Google", "VERBA - LÍQUIDA": 2600.0, "BV - MOOTPLY": "0,15", "Google Ads": "Não", "Meta Ads": "R$2.600,00", "Tiktok Ads": "Não", "META DIA/VERBA": 86.0, "GOOGLE DIA/VERBA": "Não", "ANALISTA RESPONSÁVEL": "André/Rafa"}
     ]
 };
 
-// Modern color palette
-const modernColors = ['#06edd3', '#ff6b6b', '#ffd93d', '#6c5ce7', '#00d4aa', '#fd79a8'];
+// Modern color palette - cyan, coral, yellow, purple as specified
+const mootplyColors = ['#06edd3', '#ff6b6b', '#ffd93d', '#6c5ce7', '#fd79a8', '#00cec9', '#fdcb6e', '#e17055', '#a29bfe', '#6c5ce7'];
 
 // Application state
 let filteredClients = [...dashboardData.todos_clientes];
@@ -64,20 +64,27 @@ let currentObjectiveFilter = '';
 let currentPlatformFilter = '';
 
 // Chart instances
-let objetivosChart, plataformasChart, topClientesChart, distribuicaoChart;
+let objectivesChart, platformsChart, topClientsChart, budgetChart;
+
+// DOM elements
+let searchInput, objectiveFilter, platformFilter, clientList;
 
 // Initialize the application
 function init() {
     updateDateTime();
-    setupFilters();
-    setupEventListeners();
-    renderClientList();
+    setInterval(updateDateTime, 60000); // Update every minute
     
-    // Initialize all charts for overview
-    initAllCharts();
-    
-    // Set interval to update time every minute
-    setInterval(updateDateTime, 60000);
+    // Wait for DOM to be fully ready
+    setTimeout(() => {
+        setupFilters();
+        setupEventListeners();
+        initializeCharts();
+        renderClientList();
+        
+        // Debug: Log client count
+        console.log('Total clients in data:', dashboardData.todos_clientes.length);
+        console.log('Filtered clients:', filteredClients.length);
+    }, 100);
 }
 
 // Update date and time
@@ -94,71 +101,389 @@ function updateDateTime() {
     };
     
     const dateString = now.toLocaleDateString('pt-BR', options);
-    const dateElement = document.getElementById('current-date');
-    if (dateElement) {
-        dateElement.textContent = dateString;
+    const dateEl = document.getElementById('current-date');
+    if (dateEl) {
+        dateEl.textContent = dateString;
     }
 }
 
-// Setup filters
-function setupFilters() {
-    const objectiveFilter = document.getElementById('objective-filter');
-    const platformFilter = document.getElementById('platform-filter');
+// Show success message
+function showSuccessMessage(message) {
+    // Create success notification
+    const notification = document.createElement('div');
+    notification.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: #06edd3;
+        color: #111827;
+        padding: 16px 24px;
+        border-radius: 8px;
+        font-weight: 600;
+        box-shadow: 0 4px 12px rgba(6, 237, 211, 0.3);
+        z-index: 10000;
+        animation: slideIn 0.3s ease-out;
+    `;
+    notification.innerHTML = `<i class="fas fa-check-circle" style="margin-right: 8px;"></i>${message}`;
     
-    if (objectiveFilter) {
-        // Clear existing options except first one
-        while (objectiveFilter.children.length > 1) {
-            objectiveFilter.removeChild(objectiveFilter.lastChild);
-        }
-        
-        const objectives = [...new Set(dashboardData.todos_clientes
-            .map(client => client['OBJETIVO PRINCIPAL'])
-            .filter(obj => obj && obj.trim() !== ''))];
-        
-        objectives.sort().forEach(objective => {
-            const option = document.createElement('option');
-            option.value = objective;
-            option.textContent = objective;
-            option.style.color = '#111827';
-            option.style.backgroundColor = '#f5f5f5';
-            objectiveFilter.appendChild(option);
-        });
-    }
-    
-    if (platformFilter) {
-        // Clear existing options except first one
-        while (platformFilter.children.length > 1) {
-            platformFilter.removeChild(platformFilter.lastChild);
-        }
-        
-        const platforms = new Set();
-        dashboardData.todos_clientes.forEach(client => {
-            const platStr = client['PLATAFORMA'];
-            if (platStr && platStr.trim() !== '') {
-                platStr.split(',').forEach(plat => {
-                    const cleanPlat = plat.trim();
-                    if (cleanPlat !== '') platforms.add(cleanPlat);
-                });
+    // Add animation keyframes
+    if (!document.getElementById('success-animation-styles')) {
+        const style = document.createElement('style');
+        style.id = 'success-animation-styles';
+        style.textContent = `
+            @keyframes slideIn {
+                from { transform: translateX(100%); opacity: 0; }
+                to { transform: translateX(0); opacity: 1; }
             }
-        });
-        
-        [...platforms].sort().forEach(platform => {
-            const option = document.createElement('option');
-            option.value = platform;
-            option.textContent = platform;
-            option.style.color = '#111827';
-            option.style.backgroundColor = '#f5f5f5';
-            platformFilter.appendChild(option);
-        });
+            @keyframes slideOut {
+                from { transform: translateX(0); opacity: 1; }
+                to { transform: translateX(100%); opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
     }
+    
+    document.body.appendChild(notification);
+    
+    // Remove after 3 seconds
+    setTimeout(() => {
+        notification.style.animation = 'slideOut 0.3s ease-in';
+        setTimeout(() => {
+            if (notification.parentNode) {
+                notification.parentNode.removeChild(notification);
+            }
+        }, 300);
+    }, 3000);
+}
+
+// Navigation functions
+function showOverview() {
+    document.getElementById('overview-section').classList.remove('hidden');
+    document.getElementById('client-list-section').classList.add('hidden');
+    
+    // Update active tab
+    document.querySelectorAll('.nav-tab').forEach(tab => tab.classList.remove('active'));
+    event.target.classList.add('active');
+    
+    // Refresh charts
+    setTimeout(() => {
+        if (objectivesChart) objectivesChart.resize();
+        if (platformsChart) platformsChart.resize();
+        if (topClientsChart) topClientsChart.resize();
+        if (budgetChart) budgetChart.resize();
+    }, 100);
+}
+
+function showClientList() {
+    document.getElementById('overview-section').classList.add('hidden');
+    document.getElementById('client-list-section').classList.remove('hidden');
+    
+    // Update active tab
+    document.querySelectorAll('.nav-tab').forEach(tab => tab.classList.remove('active'));
+    event.target.classList.add('active');
+}
+
+// Initialize charts
+function initializeCharts() {
+    createObjectivesChart();
+    createPlatformsChart();
+    createTopClientsChart();
+    createBudgetDistributionChart();
+}
+
+// Create objectives pie chart
+function createObjectivesChart() {
+    const ctx = document.getElementById('objectives-chart').getContext('2d');
+    const data = dashboardData.objetivos;
+    
+    objectivesChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: Object.keys(data),
+            datasets: [{
+                data: Object.values(data),
+                backgroundColor: mootplyColors.slice(0, Object.keys(data).length),
+                borderWidth: 3,
+                borderColor: '#111827'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        color: '#f5f5f5',
+                        font: {
+                            size: 12
+                        },
+                        padding: 15
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            return `${context.label}: ${context.parsed} clientes`;
+                        }
+                    }
+                }
+            }
+        }
+    });
+}
+
+// Create platforms bar chart
+function createPlatformsChart() {
+    const ctx = document.getElementById('platforms-chart').getContext('2d');
+    const data = dashboardData.plataformas;
+    
+    platformsChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: Object.keys(data),
+            datasets: [{
+                label: 'Número de Clientes',
+                data: Object.values(data),
+                backgroundColor: mootplyColors.slice(0, Object.keys(data).length),
+                borderWidth: 2,
+                borderColor: '#111827'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            return `${context.parsed.y} clientes`;
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        color: '#f5f5f5'
+                    },
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.1)'
+                    }
+                },
+                x: {
+                    ticks: {
+                        color: '#f5f5f5'
+                    },
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.1)'
+                    }
+                }
+            }
+        }
+    });
+}
+
+// Create top clients bar chart
+function createTopClientsChart() {
+    const ctx = document.getElementById('top-clients-chart').getContext('2d');
+    const data = dashboardData.top_clientes;
+    
+    topClientsChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: data.map(item => item.cliente),
+            datasets: [{
+                label: 'Verba (R$)',
+                data: data.map(item => item.verba),
+                backgroundColor: mootplyColors.slice(0, data.length),
+                borderWidth: 2,
+                borderColor: '#111827'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            indexAxis: 'y',
+            plugins: {
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            return `R$${context.parsed.x.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`;
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    ticks: {
+                        color: '#f5f5f5',
+                        font: {
+                            size: 10
+                        }
+                    },
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.1)'
+                    }
+                },
+                x: {
+                    ticks: {
+                        color: '#f5f5f5',
+                        callback: function(value) {
+                            return 'R$' + value.toLocaleString('pt-BR');
+                        }
+                    },
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.1)'
+                    }
+                }
+            }
+        }
+    });
+}
+
+// Create budget distribution chart - Real data ranges
+function createBudgetDistributionChart() {
+    const ctx = document.getElementById('budget-distribution-chart').getContext('2d');
+    
+    // Create budget ranges as specified in requirements
+    const budgets = dashboardData.todos_clientes
+        .filter(client => client['VERBA - LÍQUIDA'] !== null && client['VERBA - LÍQUIDA'] !== undefined)
+        .map(client => client['VERBA - LÍQUIDA']);
+    
+    const ranges = [
+        { label: '0-1K', min: 0, max: 1000, count: 0 },
+        { label: '1K-3K', min: 1001, max: 3000, count: 0 },
+        { label: '3K-5K', min: 3001, max: 5000, count: 0 },
+        { label: '5K+', min: 5001, max: Infinity, count: 0 }
+    ];
+    
+    budgets.forEach(budget => {
+        for (let range of ranges) {
+            if (budget >= range.min && budget <= range.max) {
+                range.count++;
+                break;
+            }
+        }
+    });
+    
+    budgetChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ranges.map(r => r.label),
+            datasets: [{
+                label: 'Número de Clientes',
+                data: ranges.map(r => r.count),
+                backgroundColor: mootplyColors.slice(0, ranges.length),
+                borderWidth: 2,
+                borderColor: '#111827'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            return `${context.parsed.y} clientes`;
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        color: '#f5f5f5'
+                    },
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.1)'
+                    }
+                },
+                x: {
+                    ticks: {
+                        color: '#f5f5f5'
+                    },
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.1)'
+                    }
+                }
+            }
+        }
+    });
+}
+
+// Setup filter options
+function setupFilters() {
+    searchInput = document.getElementById('search-input');
+    objectiveFilter = document.getElementById('objective-filter');
+    platformFilter = document.getElementById('platform-filter');
+    clientList = document.getElementById('client-list');
+    
+    if (!objectiveFilter || !platformFilter) {
+        console.error('Filter elements not found');
+        return;
+    }
+
+    // Clear existing options
+    while (objectiveFilter.children.length > 1) {
+        objectiveFilter.removeChild(objectiveFilter.lastChild);
+    }
+    
+    while (platformFilter.children.length > 1) {
+        platformFilter.removeChild(platformFilter.lastChild);
+    }
+
+    // Get unique objectives
+    const objectivesSet = new Set();
+    dashboardData.todos_clientes.forEach(client => {
+        const objective = client['OBJETIVO PRINCIPAL'];
+        if (objective && objective.trim() !== '') {
+            objectivesSet.add(objective.trim());
+        }
+    });
+    
+    const objectives = [...objectivesSet].sort();
+    objectives.forEach(objective => {
+        const option = document.createElement('option');
+        option.value = objective;
+        option.textContent = objective;
+        objectiveFilter.appendChild(option);
+    });
+
+    // Get unique platforms
+    const platformsSet = new Set();
+    dashboardData.todos_clientes.forEach(client => {
+        const platforms = client['PLATAFORMA'];
+        if (platforms && platforms.trim() !== '') {
+            platformsSet.add(platforms.trim());
+        }
+    });
+    
+    const platforms = [...platformsSet].sort();
+    platforms.forEach(platform => {
+        const option = document.createElement('option');
+        option.value = platform;
+        option.textContent = platform;
+        platformFilter.appendChild(option);
+    });
+    
+    console.log('Filters populated:', { objectives: objectives.length, platforms: platforms.length });
 }
 
 // Setup event listeners
 function setupEventListeners() {
-    const searchInput = document.getElementById('search-input');
-    const objectiveFilter = document.getElementById('objective-filter');
-    const platformFilter = document.getElementById('platform-filter');
-    
     if (searchInput) {
         searchInput.addEventListener('input', handleSearch);
     }
@@ -188,7 +513,7 @@ function handlePlatformFilter(e) {
     applyFilters();
 }
 
-// Apply filters
+// Apply all filters
 function applyFilters() {
     filteredClients = dashboardData.todos_clientes.filter(client => {
         const clientName = (client['0 CLIENTE'] || '').toLowerCase();
@@ -202,7 +527,8 @@ function applyFilters() {
         
         return matchesSearch && matchesObjective && matchesPlatform;
     });
-    
+
+    console.log('Filters applied. Showing', filteredClients.length, 'of', dashboardData.todos_clientes.length, 'clients');
     renderClientList();
 }
 
@@ -215,349 +541,156 @@ function formatCurrency(value) {
     return value;
 }
 
+// Format value for display
+function formatValue(value) {
+    if (value === null || value === undefined || value === '') return '-';
+    if (value === 'Não' || value === 'NÃO') return 'Não';
+    if (typeof value === 'number') {
+        return value.toString();
+    }
+    return value.toString();
+}
+
 // Render client list
 function renderClientList() {
-    const clientList = document.getElementById('client-list');
-    const noResults = document.getElementById('no-results');
-    
     if (!clientList) return;
 
     if (filteredClients.length === 0) {
         clientList.innerHTML = '';
-        if (noResults) noResults.classList.remove('hidden');
+        const noResultsEl = document.getElementById('no-results');
+        if (noResultsEl) {
+            noResultsEl.classList.remove('hidden');
+        }
         return;
     }
 
-    if (noResults) noResults.classList.add('hidden');
-    
-    clientList.innerHTML = filteredClients.map((client) => `
-        <div class="client-row">
-            <div class="client-cell">
-                <span class="client-name">${client['0 CLIENTE'] || '-'}</span>
-            </div>
-            <div class="client-cell">
-                ${client['OBJETIVO PRINCIPAL'] || '-'}
-            </div>
-            <div class="client-cell">
-                ${client['PLATAFORMA'] || '-'}
-            </div>
-            <div class="client-cell">
-                <span class="client-budget">${formatCurrency(client['VERBA - LÍQUIDA'])}</span>
-            </div>
-            <div class="client-cell">
-                ${client['ANALISTA RESPONSÁVEL'] || '-'}
-            </div>
-        </div>
-    `).join('');
-}
-
-// Tab switching
-function showTab(tabName) {
-    // Hide all sections
-    document.querySelectorAll('.dashboard-section').forEach(section => {
-        section.classList.remove('active');
-    });
-    
-    // Remove active class from all buttons
-    document.querySelectorAll('.tab-button').forEach(btn => {
-        btn.classList.remove('active');
-    });
-    
-    // Show selected section
-    const selectedSection = document.getElementById(tabName);
-    if (selectedSection) {
-        selectedSection.classList.add('active');
+    const noResultsEl = document.getElementById('no-results');
+    if (noResultsEl) {
+        noResultsEl.classList.add('hidden');
     }
     
-    // Add active class to clicked button
-    event.target.classList.add('active');
-}
-
-// Initialize all charts
-function initAllCharts() {
-    initObjetivosChart();
-    initPlataformasChart();
-    initTopClientesChart();
-    initDistribuicaoChart();
-}
-
-// Truncate labels for better display
-function truncateLabel(label, maxLength = 15) {
-    return label.length > maxLength ? label.substring(0, maxLength) + '...' : label;
-}
-
-// Initialize Objetivos Chart
-function initObjetivosChart() {
-    const ctx = document.getElementById('objetivos-chart');
-    if (!ctx) return;
+    // Ensure all clients are rendered
+    const clientRowsHTML = filteredClients.map((client, index) => {
+        const originalIndex = dashboardData.todos_clientes.findIndex(c => c === client);
+        return `
+            <div class="client-row" onclick="showClientDetail(${originalIndex})" data-client-name="${client['0 CLIENTE'] || ''}">
+                <div class="client-cell">
+                    <span class="client-name">${client['0 CLIENTE'] || '-'}</span>
+                </div>
+                <div class="client-cell">
+                    ${client['OBJETIVO PRINCIPAL'] || '-'}
+                </div>
+                <div class="client-cell">
+                    ${client['PLATAFORMA'] || '-'}
+                </div>
+                <div class="client-cell">
+                    <span class="client-budget">${formatCurrency(client['VERBA - LÍQUIDA'])}</span>
+                </div>
+                <div class="client-cell">
+                    ${client['ANALISTA RESPONSÁVEL'] || '-'}
+                </div>
+            </div>
+        `;
+    }).join('');
     
-    const data = dashboardData.objetivos;
+    clientList.innerHTML = clientRowsHTML;
     
-    objetivosChart = new Chart(ctx, {
-        type: 'pie',
-        data: {
-            labels: Object.keys(data),
-            datasets: [{
-                data: Object.values(data),
-                backgroundColor: modernColors.slice(0, Object.keys(data).length),
-                borderWidth: 2,
-                borderColor: '#111827'
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    position: 'bottom',
-                    labels: {
-                        color: '#f5f5f5',
-                        font: {
-                            size: 11
-                        },
-                        padding: 10
-                    }
-                },
-                tooltip: {
-                    callbacks: {
-                        label: function(context) {
-                            const label = context.label || '';
-                            const value = context.parsed || 0;
-                            const total = context.dataset.data.reduce((a, b) => a + b, 0);
-                            const percentage = ((value / total) * 100).toFixed(1);
-                            return `${label}: ${value} clientes (${percentage}%)`;
-                        }
-                    }
-                }
-            }
+    // Debug: Log rendered rows
+    console.log('Rendered', filteredClients.length, 'client rows');
+}
+
+// Show client detail modal
+function showClientDetail(clientIndex) {
+    if (clientIndex < 0 || clientIndex >= dashboardData.todos_clientes.length) return;
+    
+    const client = dashboardData.todos_clientes[clientIndex];
+    
+    // Helper function to safely get element and set content
+    function setElementContent(id, content) {
+        const element = document.getElementById(id);
+        if (element) {
+            element.textContent = content;
         }
-    });
+    }
+    
+    // Update modal content
+    setElementContent('modal-client-name', `Detalhes - ${client['0 CLIENTE'] || 'Cliente'}`);
+    setElementContent('modal-client', client['0 CLIENTE'] || '-');
+    setElementContent('modal-objective', client['OBJETIVO PRINCIPAL'] || '-');
+    setElementContent('modal-platform', client['PLATAFORMA'] || '-');
+    setElementContent('modal-analyst', client['ANALISTA RESPONSÁVEL'] || '-');
+    setElementContent('modal-budget', formatCurrency(client['VERBA - LÍQUIDA']));
+    setElementContent('modal-bv', formatValue(client['BV - MOOTPLY']));
+    setElementContent('modal-google-ads', formatValue(client['Google Ads']));
+    setElementContent('modal-meta-ads', formatValue(client['Meta Ads']));
+    setElementContent('modal-tiktok-ads', formatValue(client['Tiktok Ads']));
+    setElementContent('modal-meta-daily', formatValue(client['META DIA/VERBA']));
+    setElementContent('modal-google-daily', formatValue(client['GOOGLE DIA/VERBA']));
+    
+    // Show modal
+    const modal = document.getElementById('client-modal');
+    if (modal) {
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+    }
 }
 
-// Initialize Plataformas Chart
-function initPlataformasChart() {
-    const ctx = document.getElementById('plataformas-chart');
-    if (!ctx) return;
-    
-    const data = dashboardData.plataformas;
-    
-    plataformasChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: Object.keys(data).map(label => truncateLabel(label, 12)),
-            datasets: [{
-                label: 'Clientes',
-                data: Object.values(data),
-                backgroundColor: modernColors[0],
-                borderColor: modernColors[1],
-                borderWidth: 2
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            indexAxis: 'y',
-            plugins: {
-                legend: {
-                    display: false
-                },
-                tooltip: {
-                    callbacks: {
-                        title: function(context) {
-                            return Object.keys(data)[context[0].dataIndex];
-                        },
-                        label: function(context) {
-                            return `${context.parsed.x} clientes`;
-                        }
-                    }
-                }
-            },
-            scales: {
-                x: {
-                    beginAtZero: true,
-                    ticks: {
-                        color: '#f5f5f5',
-                        font: {
-                            size: 10
-                        }
-                    },
-                    grid: {
-                        color: '#374151'
-                    }
-                },
-                y: {
-                    ticks: {
-                        color: '#f5f5f5',
-                        font: {
-                            size: 10
-                        }
-                    },
-                    grid: {
-                        color: '#374151'
-                    }
-                }
-            }
-        }
-    });
+// Close modal
+function closeModal() {
+    const modal = document.getElementById('client-modal');
+    if (modal) {
+        modal.classList.add('hidden');
+        document.body.style.overflow = '';
+    }
 }
 
-// Initialize Top Clientes Chart
-function initTopClientesChart() {
-    const ctx = document.getElementById('top-clientes-chart');
-    if (!ctx) return;
-    
-    const data = dashboardData.top_clientes;
-    
-    topClientesChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: data.map(item => truncateLabel(item.cliente, 12)),
-            datasets: [{
-                label: 'Verba (R$)',
-                data: data.map(item => item.verba),
-                backgroundColor: modernColors[3],
-                borderColor: modernColors[4],
-                borderWidth: 2
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            indexAxis: 'y',
-            plugins: {
-                legend: {
-                    display: false
-                },
-                tooltip: {
-                    callbacks: {
-                        title: function(context) {
-                            return data[context[0].dataIndex].cliente;
-                        },
-                        label: function(context) {
-                            return `R$${context.parsed.x.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`;
-                        }
-                    }
-                }
-            },
-            scales: {
-                x: {
-                    beginAtZero: true,
-                    ticks: {
-                        color: '#f5f5f5',
-                        font: {
-                            size: 10
-                        },
-                        callback: function(value) {
-                            return 'R$' + value.toLocaleString('pt-BR');
-                        }
-                    },
-                    grid: {
-                        color: '#374151'
-                    }
-                },
-                y: {
-                    ticks: {
-                        color: '#f5f5f5',
-                        font: {
-                            size: 10
-                        }
-                    },
-                    grid: {
-                        color: '#374151'
-                    }
-                }
-            }
-        }
-    });
+// Export data functionality with user feedback
+function exportData() {
+    try {
+        const csvContent = "data:text/csv;charset=utf-8," 
+            + "Cliente,Objetivo,Plataforma,Verba,Analista\n"
+            + filteredClients.map(client => 
+                `"${client['0 CLIENTE'] || '-'}","${client['OBJETIVO PRINCIPAL'] || '-'}","${client['PLATAFORMA'] || '-'}","${formatCurrency(client['VERBA - LÍQUIDA'])}","${client['ANALISTA RESPONSÁVEL'] || '-'}"`
+            ).join("\n");
+
+        const encodedUri = encodeURI(csvContent);
+        const link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", "mootply_clientes.csv");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        
+        // Show success message
+        showSuccessMessage(`Dados exportados com sucesso! ${filteredClients.length} clientes exportados.`);
+        
+    } catch (error) {
+        console.error('Export error:', error);
+        showSuccessMessage('Erro ao exportar dados. Tente novamente.'); // Show error as success message for consistency
+    }
 }
 
-// Initialize Distribuição Chart
-function initDistribuicaoChart() {
-    const ctx = document.getElementById('distribuicao-chart');
-    if (!ctx) return;
-    
-    // Create histogram data from client budgets
-    const budgets = dashboardData.todos_clientes
-        .filter(client => client['VERBA - LÍQUIDA'] !== null && client['VERBA - LÍQUIDA'] !== undefined)
-        .map(client => client['VERBA - LÍQUIDA']);
-    
-    // Create bins for histogram
-    const bins = [
-        { label: 'R$0 - R$1.000', min: 0, max: 1000, count: 0 },
-        { label: 'R$1.001 - R$2.000', min: 1001, max: 2000, count: 0 },
-        { label: 'R$2.001 - R$3.000', min: 2001, max: 3000, count: 0 },
-        { label: 'R$3.001 - R$5.000', min: 3001, max: 5000, count: 0 },
-        { label: 'R$5.001+', min: 5001, max: Infinity, count: 0 }
-    ];
-    
-    budgets.forEach(budget => {
-        for (let bin of bins) {
-            if (budget >= bin.min && budget <= bin.max) {
-                bin.count++;
-                break;
-            }
-        }
-    });
-    
-    distribuicaoChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: bins.map(bin => bin.label),
-            datasets: [{
-                label: 'Clientes',
-                data: bins.map(bin => bin.count),
-                backgroundColor: modernColors[2],
-                borderColor: modernColors[5],
-                borderWidth: 2
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    display: false
-                },
-                tooltip: {
-                    callbacks: {
-                        label: function(context) {
-                            return `${context.parsed.y} clientes`;
-                        }
-                    }
-                }
-            },
-            scales: {
-                y: {
-                    beginAtZero: true,
-                    ticks: {
-                        color: '#f5f5f5',
-                        font: {
-                            size: 10
-                        }
-                    },
-                    grid: {
-                        color: '#374151'
-                    }
-                },
-                x: {
-                    ticks: {
-                        color: '#f5f5f5',
-                        font: {
-                            size: 10
-                        },
-                        maxRotation: 45
-                    },
-                    grid: {
-                        color: '#374151'
-                    }
-                }
-            }
-        }
-    });
-}
+// Make functions globally available
+window.showOverview = showOverview;
+window.showClientList = showClientList;
+window.showClientDetail = showClientDetail;
+window.closeModal = closeModal;
+window.exportData = exportData;
 
-// Make showTab available globally
-window.showTab = showTab;
+// Click outside modal to close
+window.addEventListener('click', function(event) {
+    const modal = document.getElementById('client-modal');
+    if (event.target === modal) {
+        closeModal();
+    }
+});
 
-// Initialize when DOM is loaded
+// Escape key to close modal
+window.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeModal();
+    }
+});
+
+// Initialize the application when DOM is loaded
 document.addEventListener('DOMContentLoaded', init);
