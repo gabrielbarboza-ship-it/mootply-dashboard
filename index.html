@@ -6,6 +6,7 @@
     <title>Dashboard Mootply - Analytics</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 </head>
 <body>
     <!-- Header -->
@@ -229,6 +230,23 @@
             </div>
         </div>
     </div>
+// URL do arquivo XLSX direto do github (use RAW, ex: raw.githubusercontent.com)
+const xlsxUrl = 'https://github.com/gabrielbarboza-ship-it/mootply-dashboard/raw/refs/heads/main/mootply-distribuicao-clientes.xlsx';
+
+fetch(xlsxUrl)
+  .then(response => response.arrayBuffer())
+  .then(data => {
+    const workbook = XLSX.read(data, { type: 'array' });
+    // Pega a sheet principal (exemplo: "Página1")
+    const sheetName = workbook.SheetNames[0];
+    const worksheet = workbook.Sheets[sheetName];
+    // Converte para array de objetos JS
+    const clientes = XLSX.utils.sheet_to_json(worksheet);
+
+    // Aqui você pode processar e atualizar os KPIs e gráficos com esses dados
+    console.log(clientes);
+    // Chame funções que atualizam o dashboard usando os dados
+  });
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="app.js"></script>
