@@ -1,4 +1,21 @@
 // app.js atualizado para carregamento dinâmico do Excel via fetch e SheetJS
+function updateDateTime() {
+  // Exemplo simples: pode popular com data ou deixar vazio se não precisa
+  // document.getElementById('current-date').textContent = new Date().toLocaleString('pt-BR');
+}
+
+function showOverview() {
+  // Coloque aqui lógica para mostrar a aba Overview e esconder outras seções
+  // Exemplo básico:
+  document.getElementById('overview-section').classList.remove('hidden');
+  document.getElementById('client-list-section').classList.add('hidden');
+}
+
+function showClientList() {
+  // Lógica para mostrar client-list
+  document.getElementById('overview-section').classList.add('hidden');
+  document.getElementById('client-list-section').classList.remove('hidden');
+}
 
 let dashboardData = {};
 let filteredClients = [];
