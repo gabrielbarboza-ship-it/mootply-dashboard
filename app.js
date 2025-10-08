@@ -126,4 +126,3 @@ function loadClientTable() {
 
 // As funções showClientDetails, updateDateTime, setupEventListeners, switchSection, createObjectivesChart, createPlatformsChart, createTopClientsChart, createDistributionChart
 // devem ser mantidas e adaptadas para sempre usar dashboardData e filteredClients para dados dinâmicos
-
